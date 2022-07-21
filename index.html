@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lindokuhle Nini</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+  <header class="sticky">
+    <a href="#" class="logo">LINDOKUHLE</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+      <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="banner" id="home">
+   <div class="textBx">
+     <h2>Hello, I'm<br><span>Lindokuhle Nini.</span></h2>
+     <h3>I'm a Software Developer Graduate</h3>
+     <a href="#about" class="btn">About me</a>
+   </div>
+  </section>
+
+  <section class="about" id="about">
+   <div class="heading">
+     <h2 class="h2">About me</h2>
+   </div>
+   <div class="content">
+    <div class="row">
+      <div class="left-column">
+        <div class="my-img">
+          <img src="../images/about-me-img.png" alt="">
+        </div>
+      </div>
+      <div class="right-column">   
+     <div class="contentBx">
+      <h3>Here's a little about me.</h3>
+      <p>I am currently a fourth year student at Cape Peninsula Univeristy of Technology pursuing a Bachelor's Degree in ICT
+        with a major in Applications Development.<br><br> I previously worked as a software developer intern, where I learned both front-end
+      and back-end development skills. I've also worked as a software testing intern, where I picked up all the basics of testing. Aside
+    from work and school, I enjoy working on side projects and learning new technologies.<br><br>
+  I am dedicated to the quest of developing solutions that leverage on best practice technologies to deliver over the top user experience.
+I am constantly on the lookout for new growth opportunities. I'm excited to hear from you. </p>
+     </div>
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="heading white">
+      <h2 class="h2">My skills</h2>
+      
+    </div>
+    <div class="content">
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="">
+          </div>
+          <h3>Java</h3>
+        </div>
+       
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://seeklogo.com/images/O/ottawa-js-logo-394DB38073-seeklogo.com.png" alt="">
+          </div>
+          <h3>Javascript</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="">
+          </div>
+          <h3>HTML</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="">
+          </div>
+          <h3>CSS</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/1280px-Node.js_logo_2015.svg.png" alt="">
+          </div>
+          <h3>Node</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://miro.medium.com/max/1051/1*vHw6ENUfu71KHiyTm0BtUA.png" alt="">
+          </div>
+          <h3>Express</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://ioco.tech/wp-content/uploads/2021/08/MySQL-Logo.wine_.png" alt="">
+          </div>
+          <h3>MySQL</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png" alt="">
+          </div>
+          <h3>MongoDB</h3>
+        </div>
+      </div>
+      <div class="skillsBx">
+        <div class="skill-title">
+          <div class="img">
+            <img src="https://seeklogo.com/images/G/git-logo-A1D01DDA30-seeklogo.com.png" alt="">
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="heading">
+      <h2 class="h2">My projects</h2>
+    </div>
+    <div class="content">
+
+      <div class="row">
+        <div class="column">
+          <img src="../images/e-com-web.PNG" alt="">
+        </div>
+        <div class="column">
+          <h3 class="project-title">E-Commerce Website</h3>
+          <p class="tech-used">Java | JSP | HTML/CSS | Javascript | MySQL</p>
+          <p>As a side project, I've been working on an e-commerce website. The goal of this project was not 
+            to create a fully functional e-commerce website, but rather to create one that included the majority 
+            of the basic functionality found in most e-commerce websites. It supports two different users with 
+            varying levels of access. The Customer and the Admin. See the Github Repository 
+            for a use case model outlining the various features for both users or watch the demo.</p>
+          <div class="column-btns">
+            <a class="c-btn btn btn-primary" href="https://github.com/LindokuhleNini/ECommerceWebsite.git" target="_blank" role="button">GitHub Repo</a>
+            <a class="c-btn btn btn-primary" href="https://sendspark.com/share/eu93qb0link75vl3" target="_blank" role="button">Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="../images/rentals-program-img.PNG" alt="">
+        </div>
+        <div class="column">
+          <h3 class="project-title">DVD Rental Application</h3>
+          <p class="tech-used">Java | SQL | Derby Database</p>
+          <p>This is a client-server application that I created as part of a project assigned to me during my 
+            second year of university. The goal was to automate all of the daily operations of a small DVD Rental 
+            Store in order to make management easier. The client side of the application is in charge of receiving 
+            user input, while the server side is in charge of interacting with the database. The most difficult 
+            aspect of this project was grasping the concept of multi-threading. However, after hours of research 
+            and frustrating errors, I finally understood how it works and passed with a distinction.</p>
+          <div class="column-btns">
+            <a class="c-btn btn btn-primary btn-sm" href="https://github.com/LindokuhleNini/DvdRentalsServer.git" target="_blank" role="button">Server GitHub</a>
+            <a class="c-btn btn btn-primary btn-sm" href="https://github.com/LindokuhleNini/DvdRentalsClient.git" target="_blank" role="button">Client GitHub</a>
+            <a class="c-btn btn btn-primary" href="https://sendspark.com/share/cf1wloe0bp91732p" target="_blank" role="button">Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="../images/vrp-img.PNG" alt="">
+        </div>
+        <div class="column">
+          <h3 class="project-title">Vaccine Registration Portal Clone</h3>
+          <p class="tech-used">HTML/CSS | Javascript | ExpressJS | NodeJS | MongoDB | Twilio API</p>
+          <p>During my internship last year, I was tasked with creating a clone of the vaccination registration portal. 
+            This project's goal was to introduce us to MongoDB, NodeJS, and the Express framework. The user fills out 
+            a few forms, just like the real Vaccination Registration Portal, and then the data is saved to a database. 
+            The difference is that I also had to include a Whatsapp chatting bot for users who prefer to register via 
+            Whatsapp. So I had to learn how to work with APIs as well.</p>
+          <div class="column-btns">
+            <a class="c-btn btn btn-primary" href="https://github.com/LindokuhleNini/vaccination-registration-portal.git" target="_blank" role="button">GitHub Repo</a>
+            <a class="c-btn btn btn-primary" href="https://sendspark.com/share/8ep0w8569o32fhwr" target="_blank" role="button">Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="../images/shopping-cart-img.PNG" alt="">
+        </div>
+        <div class="column">
+          <h3 class="project-title">Shopping Cart</h3>
+          <p class="tech-used">HTML/CSS | Javascript | JQuery</p>
+          <p>Not so long ago, JavaScript was foreign to me. On my quest to learn all the basics of JavaScript, 
+            I decided to take a project based approach and create a functional shopping cart. Which was 
+            challenging but exciting at the same time. This project served as a stepping stone to my web development journey.</p>
+          <div class="column-btns">
+            <a class="c-btn btn btn-primary" href="https://github.com/LindokuhleNini/shopping-cart.git" target="_blank" role="button">GitHub Repo</a>
+            <a class="c-btn btn btn-primary" href="https://shopping-cart-lindo.000webhostapp.com/#" target="_blank" role="button">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="heading white">
+      <h2 class="h2">Contact Me</h2>
+      
+    </div>
+    <div class="content">
+      <div class="contactInfo">
+        <h3>Contact Info</h3>
+        <div class="contactInfoBx">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker"></i>
+              <div class="text">
+                <h3>Address</h3>
+                <p>40 Sir Lowry Road, Zonnebloem, Cape Town, <br>7925</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone"></i>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>(27) 62 3430 474</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope-o"></i>
+              <div class="text">
+                <h3>Emai</h3>
+                <p>liindokuhlenini@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-github"></i>
+              <div class="text">
+                <h3>GitHub</h3>
+                <a href="https://github.com/LindokuhleNini/" target="_blank">LindokuhleNini-GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-linkedin"></i>
+              <div class="text">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/lindokuhlenini" target="_blank">LindokuhleNini-LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formbx">
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <h3>Message Me</h3>
+          <input type="text" name="name" id="name" placeholder="Full Name">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <textarea name="message" id="message" placeholder="Your Message"></textarea>
+          <button class="btn btn-primary" type="submit" style="width:200px">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="copyright">
+    <p>Copyright @ 2021 Lindokuhle Nini. All Right Reserved.</p>
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+     var header = document.querySelector('header');
+     header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+      var menuToggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menuToggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    }
+
+    function sendEmail(){
+    Email.send({
+  Host : "smtp.elasticemail.com",
+  Username : "lindokuhlepaul6@gmail.com",
+  Password : "52F8A8D5E1A3F88B6339F6FFFADF5F833D97",
+  To : 'liindokuhlenini@gmail.com',
+  From : document.getElementById("email").value,
+  Subject : "New Enquiry from Portfolio",
+  Body: "Name: " + document.getElementById("name").value
+        + "<br> Email: " + document.getElementById("email").value
+        + "<br> Message: " + document.getElementById("message").value
+}).then(
+message => alert("Thanks for contacting me.")
+);
+  }
+  </script>
+</body>
+</html>
